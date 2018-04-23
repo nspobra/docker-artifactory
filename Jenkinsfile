@@ -4,8 +4,8 @@ node {
         def downloadSpec = """{
          "files": [
           {
-              "pattern": "bazinga-repo/*.zip",
-              "target": "bazinga/"
+              "pattern": "com/fisglobal/WebClient/7.6.2.3/*.jar",
+              "target": "WebClient/"
             }
          ]
         }"""
