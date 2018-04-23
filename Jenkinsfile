@@ -4,7 +4,7 @@ node {
         def downloadSpec = """{
          "files": [
           {
-              "pattern": "WebClient/7.6.2.3/*.jar",
+              "pattern": "repos/com/fisglobal/WebClient/7.6.2.3/*.jar",
               "target": "WebClient/"
             }
          ]
