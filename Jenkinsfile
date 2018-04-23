@@ -2,6 +2,9 @@ def server = Artifactory.newServer url: 'https://spdmaven2.fnis.com/artifactory/
 pipeline {
     agent none
     stages {
+        stage('Checkout') {
+            checkout scm
+        }
         stage('Example') {
             steps {
                 echo 'Hello World'
